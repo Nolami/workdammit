@@ -6,5 +6,10 @@ namespace workdammit
         {
             InitializeComponent();
         }
+
+        private void VaihdaBT_Click(object sender, EventArgs e)
+        {
+            WorkLB.Text = "Privyet Egert";
+        }
     }
 }
