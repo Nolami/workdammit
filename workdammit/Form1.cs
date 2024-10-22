@@ -10,6 +10,7 @@ namespace workdammit
         private void VaihdaBT_Click(object sender, EventArgs e)
         {
             WorkLB.Text = "Privyet Egert";
+            oppa.Text = "Guten Tag, Emma";
         }
     }
 }

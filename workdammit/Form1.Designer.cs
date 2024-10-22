@@ -30,6 +30,7 @@
         {
             this.VaihdaBT = new System.Windows.Forms.Button();
             this.WorkLB = new System.Windows.Forms.Label();
+            this.oppa = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // VaihdaBT
@@ -51,11 +52,21 @@
             this.WorkLB.TabIndex = 1;
             this.WorkLB.Text = "No world";
             // 
+            // oppa
+            // 
+            this.oppa.AutoSize = true;
+            this.oppa.Location = new System.Drawing.Point(189, 54);
+            this.oppa.Name = "oppa";
+            this.oppa.Size = new System.Drawing.Size(56, 15);
+            this.oppa.TabIndex = 2;
+            this.oppa.Text = "No world";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.oppa);
             this.Controls.Add(this.WorkLB);
             this.Controls.Add(this.VaihdaBT);
             this.Name = "Form1";
@@ -69,5 +80,6 @@
 
         private Button VaihdaBT;
         private Label WorkLB;
+        private Label oppa;
     }
 }
